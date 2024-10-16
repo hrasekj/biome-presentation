@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>Animotion</title>
+  <title>Biomejs - Jakub Hrášek</title>
 </svelte:head>
 
 {@render children()}

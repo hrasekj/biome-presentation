@@ -11,7 +11,7 @@
   },
   "packageManager": "pnpm@9.12.1",
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^3.2.5",
+    "@sveltejs/adapter-static": "^3.0.5",
     "@sveltejs/kit": "^2.6.3",
     "@sveltejs/vite-plugin-svelte": "4.0.0-next.7",
     "@types/reveal.js": "^5.0.4",
@@ -29,6 +29,7 @@
   "dependencies": {
     "@animotion/core": "^1.0.23",
     "@animotion/motion": "^1.0.1",
+    "@fontsource-variable/bricolage-grotesque": "^5.1.0",
     "@fontsource-variable/jetbrains-mono": "^5.1.1",
     "@fontsource-variable/manrope": "^5.1.0",
     "@tailwindcss/vite": "4.0.0-alpha.14",

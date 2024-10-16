@@ -14,6 +14,9 @@ importers:
       '@animotion/motion':
         specifier: ^1.0.1
         version: 1.0.1(svelte@5.0.0-next.262)
+      '@fontsource-variable/bricolage-grotesque':
+        specifier: ^5.1.0
+        version: 5.1.0
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.1.1
         version: 5.1.1
@@ -30,9 +33,9 @@ importers:
         specifier: 4.0.0-alpha.14
         version: 4.0.0-alpha.14
     devDependencies:
-      '@sveltejs/adapter-auto':
-        specifier: ^3.2.5
-        version: 3.2.5(@sveltejs/kit@2.6.3(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))
+      '@sveltejs/adapter-static':
+        specifier: ^3.0.5
+        version: 3.0.5(@sveltejs/kit@2.6.3(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))
       '@sveltejs/kit':
         specifier: ^2.6.3
         version: 2.6.3(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0))
@@ -227,6 +230,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource-variable/bricolage-grotesque@5.1.0':
+    resolution: {integrity: sha512-9YiKURmSyEGvbMHCH6UBMP31JMNels5hJR/pIzBvo+mYtSvPCXSIP/VhT7T/4RG4vssXdvUR77eDuUvWSuyYwQ==}
+
   '@fontsource-variable/jetbrains-mono@5.1.1':
     resolution: {integrity: sha512-V+1aRFRvuZ66PpO30s8l/2aADKzpV9VRsO3kSZE+rTMvi4vab3cUcPHMN2z+wAvjkYJO71Yf+g3/Y6pSMmQpVQ==}
 
@@ -349,8 +355,8 @@ packages:
   '@shikijs/vscode-textmate@9.3.0':
     resolution: {integrity: sha512-jn7/7ky30idSkd/O5yDBfAnVt+JJpepofP/POZ1iMOxK59cOfqIgg/Dj0eFsjOTMw+4ycJN0uhZH/Eb0bs/EUA==}
 
-  '@sveltejs/adapter-auto@3.2.5':
-    resolution: {integrity: sha512-27LR+uKccZ62lgq4N/hvyU2G+hTP9fxWEAfnZcl70HnyfAjMSsGk1z/SjAPXNCD1mVJIE7IFu3TQ8cQ/UH3c0A==}
+  '@sveltejs/adapter-static@3.0.5':
+    resolution: {integrity: sha512-kFJR7RxeB6FBvrKZWAEzIALatgy11ISaaZbcPup8JdWUdrmmfUHHTJ738YHJTEfnCiiXi6aX8Q6ePY7tnSMD6Q==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -1105,6 +1111,8 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
+  '@fontsource-variable/bricolage-grotesque@5.1.0': {}
+
   '@fontsource-variable/jetbrains-mono@5.1.1': {}
 
   '@fontsource-variable/manrope@5.1.0': {}
@@ -1203,10 +1211,9 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@sveltejs/adapter-auto@3.2.5(@sveltejs/kit@2.6.3(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))':
+  '@sveltejs/adapter-static@3.0.5(@sveltejs/kit@2.6.3(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))':
     dependencies:
       '@sveltejs/kit': 2.6.3(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0))
-      import-meta-resolve: 4.1.0
 
   '@sveltejs/kit@2.6.3(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0)))(svelte@5.0.0-next.262)(vite@5.4.8(lightningcss@1.27.0))':
     dependencies:
